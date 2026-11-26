@@ -37,7 +37,7 @@ Wiki page: [M626](../../../../PAGES/M626.md)
 - **Words (OCR):** 38 in 33 lines: PI · P2 · +El MEASURE · AC · IS0 · 20 · 140 · 30 · I30 · 40 · OIs · I20
 - **Wiring (first pass):** 87 connected wire groups from 455 runs; labelled ends: 206 mm → Ty, APRIL 1971, SCAE; 80 mm → TOLs, Finish; 75 mm → PI; 72 mm → 40, 015, 016, COM:; 66 mm → Ty, APRIL 1971
 
-Every curve, box, word and wire group: [1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1 (traced).json](../PINOUTS/1971%20-%20626-02-002%20-%20FRAME%20CONNECTOR%20WIRING%20-%20DRN%20TY%20-%20ISS%201%20(traced).json) (the CAD file: `1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1 (traced).dxf`).
+Every curve, box, word and wire group: [1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1 (traced).json](../PINOUTS/1971%20-%20626-02-002%20-%20FRAME%20CONNECTOR%20WIRING%20-%20DRN%20TY%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1 (traced).dxf`).
 
 ## Full text
 

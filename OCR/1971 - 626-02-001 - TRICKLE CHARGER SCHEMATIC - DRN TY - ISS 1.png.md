@@ -40,7 +40,7 @@ Schematic of the M626 trickle charger.
 - **Words (OCR):** 52 in 49 lines: P2 · RZ · 820 · 820wZw · Ti · ZN4920 · CRA · ~SA SB 166 C50 · CRI · R3 · IN4OO3 · IK V2w
 - **Wiring (first pass):** 64 connected wire groups from 470 runs; labelled ends: 201 mm → 820, 820wZw, R3, IK V2w; 174 mm → R4, ZW, 10o/35; 149 mm → CR6, IN5404-, BI, VBZO; 149 mm → P2; 114 mm → P2
 
-Every curve, box, word and wire group: [1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1 (traced).json](../SCHEMATICS/1971%20-%20626-02-001%20-%20TRICKLE%20CHARGER%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%201%20(traced).json) (the CAD file: `1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1 (traced).dxf`).
+Every curve, box, word and wire group: [1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1 (traced).json](../SCHEMATICS/1971%20-%20626-02-001%20-%20TRICKLE%20CHARGER%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%201%20%28traced%29.json) (the CAD file: `1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1 (traced).dxf`).
 
 ## Full text
 

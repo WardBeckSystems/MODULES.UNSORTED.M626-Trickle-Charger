@@ -25,6 +25,24 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 
 Not on Google Drive yet: `1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.png`
 
+## RTO-144 pinout
+
+Read from 1 pinout picture (each its own `.pinout.json` beside it). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
+
+| Pin | Signal | Kind | Port | Confidence |
+|---|---|---|---|---|
+| P1-7 | AC LINE | power | AC | medium |
+| P1-16 | AC LINE | power | AC | medium |
+| P2-1 | +B1 MEASURE | control_out | +B1 MEASURE + | medium |
+| P2-5 | +B1 | strap |  | medium |
+| P2-6 | +B1 OUT | out | +B1 OUT + | medium |
+| P2-12 | CHASSIS GROUND | ground |  | medium |
+| P2-14 | COMMON | ground |  | medium |
+| P2-15 | COMMON | ground |  | medium |
+| P2-16 | COMMON | ground |  | medium |
+
+**Straps:** 5-6: P2-5 P2-6 · 14-15-16: P2-14 P2-15 P2-16
+
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._

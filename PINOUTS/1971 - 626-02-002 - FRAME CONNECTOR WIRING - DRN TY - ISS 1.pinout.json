@@ -1,0 +1,177 @@
+{
+  "schema": "wbs-pinout/1",
+  "picture": "1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.png",
+  "module": "M626",
+  "applies_to": [
+    "M626"
+  ],
+  "pinout": true,
+  "drawing": {
+    "number": "B 626-02-002",
+    "title": "M626 FRAME CONNECTOR WIRING",
+    "date": "1971-04",
+    "issue": "1",
+    "drawn": "TY"
+  },
+  "connectors": [
+    {
+      "name": "P1",
+      "kind": "connector",
+      "contacts": 16,
+      "rows": "1-8 opposite 9-16",
+      "view": "rear of frame",
+      "part": null
+    },
+    {
+      "name": "P2",
+      "kind": "connector",
+      "contacts": 16,
+      "rows": "1-8 opposite 9-16",
+      "view": "rear of frame",
+      "part": null
+    }
+  ],
+  "pins": [
+    {
+      "connector": "P1",
+      "pin": "7",
+      "also": null,
+      "as_drawn": "AC",
+      "signal": "AC LINE",
+      "kind": "power",
+      "port": "AC",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "16",
+      "also": null,
+      "as_drawn": "AC",
+      "signal": "AC LINE",
+      "kind": "power",
+      "port": "AC",
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "1",
+      "also": null,
+      "as_drawn": "+B1 MEASURE",
+      "signal": "+B1 MEASURE",
+      "kind": "control_out",
+      "port": "+B1 MEASURE",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "5",
+      "also": null,
+      "as_drawn": "linked to 6; dashed component to 9",
+      "signal": "+B1",
+      "kind": "strap",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "6",
+      "also": null,
+      "as_drawn": "+B1 OUT",
+      "signal": "+B1 OUT",
+      "kind": "out",
+      "port": "+B1 OUT",
+      "polarity": "+"
+    },
+    {
+      "connector": "P2",
+      "pin": "12",
+      "also": null,
+      "as_drawn": "(chassis ground symbol)",
+      "signal": "CHASSIS GROUND",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "14",
+      "also": null,
+      "as_drawn": "COM. (linked 14-15-16)",
+      "signal": "COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "15",
+      "also": null,
+      "as_drawn": "COM. (linked 14-15-16)",
+      "signal": "COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P2",
+      "pin": "16",
+      "also": null,
+      "as_drawn": "COM.",
+      "signal": "COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    }
+  ],
+  "ports": [
+    {
+      "name": "AC",
+      "dir": "in",
+      "pins": {
+        "+": "P1-7",
+        "-": "P1-16"
+      }
+    },
+    {
+      "name": "+B1 OUT",
+      "dir": "out",
+      "pins": {
+        "+": "P2-6",
+        "-": "P2-16"
+      }
+    },
+    {
+      "name": "+B1 MEASURE",
+      "dir": "control_out",
+      "pins": {
+        "+": "P2-1"
+      }
+    }
+  ],
+  "inserts": [],
+  "straps": [
+    {
+      "name": "5-6",
+      "pins": [
+        "P2-5",
+        "P2-6"
+      ],
+      "note": "solid link"
+    },
+    {
+      "name": "14-15-16",
+      "pins": [
+        "P2-14",
+        "P2-15",
+        "P2-16"
+      ],
+      "note": "solid links to COM."
+    }
+  ],
+  "unread": [
+    "Two dashed components on P2 (one between 9/10 and 4/5 diagonally, one beside 1-4 vertically) are not identified",
+    "AC cable: which contact is line and which neutral not stated"
+  ],
+  "confidence": "medium",
+  "notes": "VIEWED FROM REAR OF FRAME. AC cable to P1-7 and P1-16. P2: +B1 MEASURE on 1, +B1 OUT on 6 (5 linked), chassis ground on 12, COM. on 16 linked to 14 and 15. Dashed parts look like optional in-frame components (possibly resistor/diode) and are not recorded as pins."
+}

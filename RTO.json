@@ -1,0 +1,225 @@
+{
+ "code": "M626",
+ "connector": "RTO-144",
+ "type": null,
+ "series": null,
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "connector",
+   "contacts": 16,
+   "rows": "1-8 opposite 9-16",
+   "view": "rear of frame",
+   "part": null
+  },
+  {
+   "name": "P2",
+   "kind": "connector",
+   "contacts": 16,
+   "rows": "1-8 opposite 9-16",
+   "view": "rear of frame",
+   "part": null
+  }
+ ],
+ "verified": null,
+ "built_from": {
+  "pictures": [
+   "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+  ],
+  "sheet": null,
+  "sheet_agrees": null
+ },
+ "pins": [
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "P1-7",
+   "also": null,
+   "same_row": null,
+   "signal": "AC LINE",
+   "kind": "power",
+   "port": "AC",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "P1-16",
+   "also": null,
+   "same_row": null,
+   "signal": "AC LINE",
+   "kind": "power",
+   "port": "AC",
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "1",
+   "ref": "P2-1",
+   "also": null,
+   "same_row": null,
+   "signal": "+B1 MEASURE",
+   "kind": "control_out",
+   "port": "+B1 MEASURE",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "5",
+   "ref": "P2-5",
+   "also": null,
+   "same_row": null,
+   "signal": "+B1",
+   "kind": "strap",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "6",
+   "ref": "P2-6",
+   "also": null,
+   "same_row": null,
+   "signal": "+B1 OUT",
+   "kind": "out",
+   "port": "+B1 OUT",
+   "polarity": "+",
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "12",
+   "ref": "P2-12",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS GROUND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "14",
+   "ref": "P2-14",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "15",
+   "ref": "P2-15",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "16",
+   "ref": "P2-16",
+   "also": null,
+   "same_row": null,
+   "signal": "COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "medium",
+   "read_from": [
+    "M626/PINOUTS/1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "AC",
+   "dir": "in",
+   "pins": {
+    "+": "P1-7",
+    "-": "P1-16"
+   }
+  },
+  {
+   "name": "+B1 OUT",
+   "dir": "out",
+   "pins": {
+    "+": "P2-6",
+    "-": "P2-16"
+   }
+  },
+  {
+   "name": "+B1 MEASURE",
+   "dir": "control_out",
+   "pins": {
+    "+": "P2-1"
+   }
+  }
+ ],
+ "inserts": [],
+ "straps": [
+  {
+   "name": "5-6",
+   "pins": [
+    "P2-5",
+    "P2-6"
+   ],
+   "note": "solid link"
+  },
+  {
+   "name": "14-15-16",
+   "pins": [
+    "P2-14",
+    "P2-15",
+    "P2-16"
+   ],
+   "note": "solid links to COM."
+  }
+ ],
+ "conflicts": [],
+ "to_check": []
+}

@@ -1,16 +1,16 @@
-# M626 · Unsorted
+# M626 Trickle Charger · Unsorted
 
 Ward-Beck Systems M626, 1971|4. Wiki page: [M626 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M626.html)
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 4 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 0 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 4 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 0 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 0 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 0 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 3 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 5 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 2 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 6 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 1 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 4 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 2 |
 
 ## Schematics
@@ -50,6 +50,11 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1971 - 626-02-001 - TRICKLE CHARGER SCHEMATIC - DRN TY - ISS 1.kicad_sch](KICAD/1971%20-%20626-02-001%20-%20TRICKLE%20CHARGER%20SCHEMATIC%20-%20DRN%20TY%20-%20ISS%201.kicad_sch)
 - [1971 - 626-02-002 - FRAME CONNECTOR WIRING - DRN TY - ISS 1.kicad_sch](KICAD/1971%20-%20626-02-002%20-%20FRAME%20CONNECTOR%20WIRING%20-%20DRN%20TY%20-%20ISS%201.kicad_sch)
 - [M626.kicad_sym](KICAD/M626.kicad_sym)
+- [index.html](KICAD/index.html)
+
+## Software
+
+- [index.html](SOFTWARE/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
